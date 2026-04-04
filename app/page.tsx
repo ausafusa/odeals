@@ -40,6 +40,7 @@ export default function HomePage() {
               <span className="eyebrow">Curated daily</span>
               <h1 className="text-[1.75rem] font-semibold leading-8 tracking-[-0.04em] sm:text-[2.3rem] sm:leading-[2.6rem]">
                 Best Amazon picks, faster.
+                <HomeSearch />
               </h1>
               <p className="max-w-xl text-sm leading-6 text-[color:var(--secondary-text)]">
                 Fast mobile browsing, compact product cards, and clearly labeled paid Amazon links.
