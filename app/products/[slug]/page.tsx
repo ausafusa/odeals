@@ -7,7 +7,21 @@ import { JsonLd } from "@/components/json-ld";
 import { ProductCard } from "@/components/product-card";
 import { getProductBySlug, getRelatedProducts, products } from "@/lib/products";
 import { absoluteUrl, siteConfig } from "@/lib/site";
+function getYouTubeEmbedUrl(url?: string) {
+  if (!url) return null;
 
+  const shortMatch = url.match(/youtube\.com\/shorts\/([^?&/]+)/);
+  if (shortMatch) {
+    return `https://www.youtube.com/embed/${shortMatch[1]}`;
+  }
+
+  const watchMatch = url.match(/[?&]v=([^&]+)/);
+  if (watchMatch) {
+    return `https://www.youtube.com/embed/${watchMatch[1]}`;
+  }
+
+  return null;
+}
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
 };
