@@ -1,3 +1,4 @@
+import HomeSearch from "@/components/home-search";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { JsonLd } from "@/components/json-ld";
