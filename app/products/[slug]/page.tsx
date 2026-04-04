@@ -65,7 +65,7 @@ export default async function ProductPage({ params }: any) {
             target="_blank"
             className="mt-5 inline-block px-5 py-3 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-500 transition"
           >
-            Limited stock • Price may change
+            See Today’s Deal
           </Link>
         </div>
       </div>
