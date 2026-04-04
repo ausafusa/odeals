@@ -12,6 +12,7 @@ export type Product = {
   shortBenefits: string;
   benefits: string[];
   amazonUrl: string;
+  youtubeShortUrl?: string;
   tagline: string;
   trending: boolean;
   whyWePickedIt: string;
