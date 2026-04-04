@@ -28,14 +28,14 @@ export default function HomeSearch() {
       <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900">
         
         <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
-          Find your product fast
+          Search any product from our picks
         </h2>
 
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search deals... e.g. mirror, mug, projector"
+          placeholder="Search product name... e.g. mirror, facial brush, projector"
           className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none focus:border-blue-500 dark:border-slate-700 dark:bg-slate-950 dark:text-white"
         />
 
@@ -58,7 +58,7 @@ export default function HomeSearch() {
               ))
             ) : (
               <div className="text-sm text-slate-500">
-                No product found
+                No matching product found. Try another keyword.
               </div>
             )}
           </div>
