@@ -81,7 +81,7 @@ export const products: Product[] = [
       "On-the-Go Design: The 26oz cup features a built-in handle and a 100% leakproof lid with chug spout and detachable straw.",
     ],
     amazonUrl: "https://www.amazon.com/dp/APNA-AFFILIATE-LINK",
-    youtubeShortUrl: "",
+    youtubeShortUrl: "https://www.youtube.com/shorts/qQl1NMp5LPg?feature=share",
     tagline:
       "Blend it. Seal it. Take it anywhere.",
     trending: true,
