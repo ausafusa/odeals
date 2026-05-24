@@ -6,8 +6,8 @@ export type ProductFaq = {
 export type Product = {
   slug: string;
   title: string;
-  category: "Beauty" | "Gadgets";
-  categorySlug: "beauty" | "gadgets";
+  category: "Beauty" | "Gadgets" | "Home & Kitchen";
+  categorySlug: "beauty" | "gadgets" | "home-kitchen";
   image: string;
   shortBenefits: string;
   benefits: string[];
@@ -54,49 +54,62 @@ export const categories: Category[] = [
     seoDescription:
       "Shop gadget recommendations on ODeals, from desk-friendly power accessories to portable entertainment finds and modern home tech.",
   },
+  {
+    {
+    slug: "home-kitchen",
+    title: "Home & Kitchen",
+    heading: "Smart home and kitchen tools for modern living",
+    description:
+      "Discover top-rated home and kitchen gadgets chosen for everyday convenience, smart design, and real home use.",
+    intro:
+      "Our home and kitchen picks focus on practical tools that save time, reduce effort, and make daily life easier for everyone.",
+    seoDescription:
+      "Explore home and kitchen product recommendations on ODeals, including blenders, appliances, and home gadgets selected for everyday use.",
+  },
 ];
 
 export const products: Product[] = [
-  {
-    slug: "glowpulse-facial-brush",
-    title: "GlowPulse Facial Brush",
-    category: "Beauty",
-    categorySlug: "beauty",
-    image: "/products/glowpulse-facial-brush.svg",
-    shortBenefits: "Gentle silicone cleansing, easy handling, and a more polished daily skincare routine.",
+ {
+    slug: "ninja-blendboss-personal-blender",
+    title: "Ninja BlenBoss Personal Blender",
+    category: "Gadgets",
+    categorySlug: "gadgets",
+    image: "/products/ninja-blendboss-personal-blender.jpg",
+    shortBenefits: "Powerful blending, leakproof travel cup, and smart Auto-iQ presets for perfect smoothies every time.",
     benefits: [
-      "Soft silicone touchpoints support a gentle cleanse for everyday use.",
-      "Compact waterproof design works well in shower shelves and travel bags.",
-      "Rechargeable format keeps your routine simple without disposable batteries.",
+      "Total Crushing Power: A 1200-peak-watt motor and heavy-duty blades effortlessly turn ice into snow.",
+      "Auto-iQ Presets: Three intelligent one-touch programs use unique pulsing patterns to take the guesswork out of blending.",
+      "On-the-Go Design: The 26oz cup features a built-in handle and a 100% leakproof lid with chug spout and detachable straw.",
     ],
-    amazonUrl: "https://www.amazon.com/",
+    amazonUrl: "https://www.amazon.com/dp/APNA-AFFILIATE-LINK",
+    youtubeShortUrl: "",
     tagline:
-      "A streamlined facial cleansing tool for people who want a cleaner-feeling routine without adding friction.",
-    trending: true,
+      "Blend it. Seal it. Take it anywhere.",
+    trending: false,
     whyWePickedIt:
-      "We chose this style of cleansing brush because it offers a balanced mix of comfort, portability, and premium-looking design for everyday skincare setups.",
+      "Ninja BlenBoss stands out for its powerful motor, smart presets, and truly leakproof travel cup — perfect for busy people who refuse to skip nutrition.",
     bestFor: [
-      "Busy morning and evening skincare routines",
-      "Travel-friendly beauty kits",
-      "Users who prefer gentle silicone tools over bulkier brushes",
+      "People who want quick healthy smoothies on the go",
+      "Gym-goers and fitness lovers",
+      "Busy mornings when every minute counts",
     ],
     thingsToKnow: [
-      "Results and comfort can vary depending on skin type and usage habits.",
-      "It is best used as part of a consistent cleansing routine rather than as a standalone skincare solution.",
-      "Always review the latest product details on Amazon before purchasing.",
+      "Requires standard 120V power outlet — not battery powered",
+      "26oz cup included — great for single servings",
+      "Dishwasher safe parts for easy cleanup",
     ],
     editorialSummary:
-      "GlowPulse Facial Brush stands out for its modern shape, easy grip, and low-fuss routine fit. It is a helpful option for shoppers looking to keep cleansing simple while maintaining a more elevated skincare setup.",
+      "Rushing out the door every morning? Stop compromising on your health! The Ninja BlenBoss lets you blend perfect smoothies and take them to go in the exact same leakproof cup. Powerful, smart, and built for real life.",
     faqs: [
       {
-        question: "Who is this facial brush best for?",
+        question: "Can I drink straight from the cup?",
         answer:
-          "It is best for shoppers who want a simple daily cleansing tool with a gentle feel and a compact footprint.",
+          "Yes, just swap the blade assembly for the included leakproof travel lid after blending.",
       },
       {
-        question: "Is this product travel-friendly?",
+        question: "Is it battery-powered?",
         answer:
-          "Its compact design makes it easier to pack than larger countertop skincare tools.",
+          "No, it requires a standard 120V power outlet.",
       },
     ],
   },
