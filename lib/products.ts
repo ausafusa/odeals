@@ -84,7 +84,7 @@ export const products: Product[] = [
     youtubeShortUrl: "",
     tagline:
       "Blend it. Seal it. Take it anywhere.",
-    trending: false,
+    trending: true,
     whyWePickedIt:
       "Ninja BlenBoss stands out for its powerful motor, smart presets, and truly leakproof travel cup — perfect for busy people who refuse to skip nutrition.",
     bestFor: [
