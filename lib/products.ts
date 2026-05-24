@@ -55,7 +55,6 @@ export const categories: Category[] = [
       "Shop gadget recommendations on ODeals, from desk-friendly power accessories to portable entertainment finds and modern home tech.",
   },
   {
-    {
     slug: "home-kitchen",
     title: "Home & Kitchen",
     heading: "Smart home and kitchen tools for modern living",
