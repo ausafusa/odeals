@@ -85,7 +85,7 @@ export const products: Product[] = [
     youtubeShortUrl: "YOUTUBE_URL",
     tagline:
       "Chop, slice, shred, and dough — all at the touch of a button.",
-    trending: false,
+    trending: true,
     whyWePickedIt:
       "The BN601 is the sweet spot between power and price. At under $100, it delivers Auto-iQ intelligence that most food processors at twice the price do not have.",
     bestFor: [
