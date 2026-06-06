@@ -108,7 +108,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             Product pages include key benefits, best-for guidance, things to know, FAQs, and related recommendations to improve usefulness for shoppers and search engines.
           </p>
         </div>
-        <div className="product-grid">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
           {products.map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}
