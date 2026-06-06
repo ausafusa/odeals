@@ -68,6 +68,56 @@ export const categories: Category[] = [
 ];
 
 export const products: Product[] = [
+
+    {
+    slug: "ninja-foodi-smart-xl-6-in-1-indoor-grill",
+    title: "Ninja Foodi Smart XL 6-in-1 Indoor Grill",
+    category: "Home & Kitchen",
+    categorySlug: "home-kitchen",
+    image: "/products/ninja-foodi-smart-xl-6-in-1-indoor-grill.jpg",
+    shortBenefits: "Smart thermometer, 6-in-1 functions, and XL capacity — perfect indoor grilling without the smoke.",
+    benefits: [
+      "Smart Cook System: 4 protein settings and 9 doneness levels with the Foodi Smart Thermometer — perfect results every time, no guesswork.",
+      "XL Capacity: Grill up to 6 steaks or 24 hot dogs at once with 500°F Cyclonic Grilling Technology for real char-grill marks.",
+      "6-in-1 Versatility: Grill, air crisp, roast, bake, broil, and dehydrate — one appliance replaces six kitchen tools.",
+    ],
+    amazonUrl: "https://amzn.to/4eqsE9T",
+    youtubeShortUrl: "YOUTUBE_URL",
+    tagline:
+      "Sear, sizzle, and crisp — all indoors, all in one.",
+    trending: true,
+    whyWePickedIt:
+      "The Ninja Foodi Smart XL is the only indoor grill with a built-in thermometer that monitors food throughout cooking. No cutting, no guessing — just perfect doneness every time.",
+    bestFor: [
+      "Apartment dwellers who miss outdoor grilling",
+      "Families who want one appliance that does everything",
+      "Anyone who wants perfectly cooked steak without a BBQ",
+    ],
+    thingsToKnow: [
+      "Virtually smoke-free design with splatter shield and cool-air zone",
+      "Dishwasher-safe grill grate, crisper basket, and cooking pot",
+      "Fits up to 6 steaks — ideal for family-sized meals",
+    ],
+    editorialSummary:
+      "The Ninja Foodi Smart XL Grill solves the biggest problem with indoor cooking — guesswork. The built-in Smart Thermometer continuously monitors internal temperature so you never overcook or undercook again. With 500°F cyclonic air combining with a 500°F grill grate, you get genuine char-grill marks and flavors without ever stepping outside. Six functions in one unit means it earns its counter space every single day.",
+    faqs: [
+      {
+        question: "Can I really grill indoors without smoke?",
+        answer:
+          "Yes — the Ninja Foodi Smart XL uses a splatter shield and cool-air zone to keep smoke virtually eliminated, even when cooking at 500°F.",
+      },
+      {
+        question: "What proteins work best with the Smart Cook System?",
+        answer:
+          "The system has dedicated settings for beef, poultry, pork, and fish — each with 9 customizable doneness levels from rare to well done.",
+      },
+      {
+        question: "Is it easy to clean?",
+        answer:
+          "The grill grate, crisper basket, and cooking pot are all dishwasher safe.",
+      },
+    ],
+  },
  {
     slug: "ninja-blendboss-personal-blender",
     title: "Ninja BlenBoss Personal Blender",
