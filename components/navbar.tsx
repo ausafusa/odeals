@@ -6,6 +6,7 @@ const navItems = [
   { href: "/categories", label: "Categories" },
   { href: "/categories/beauty", label: "Beauty" },
   { href: "/categories/gadgets", label: "Gadgets" },
+   { href: "/categories/gadgets", label: "Home & Kitchen" },
   { href: "/affiliate-disclaimer", label: "Disclosure" },
 ];
 
