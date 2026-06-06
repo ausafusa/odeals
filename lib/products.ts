@@ -1733,43 +1733,7 @@ export const products: Product[] = [
     ],
   },
   
-  {
-    slug: "beauty",
-    title: "Beauty",
-    heading: "Beauty essentials for calm, polished routines",
-    description:
-      "Discover globally inspired beauty tools and routine upgrades chosen for comfort, simplicity, and everyday practicality.",
-    intro:
-      "Our beauty picks focus on clean design, easier routines, and reliable everyday use instead of exaggerated promises.",
-    seoDescription:
-      "Explore beauty product recommendations on ODeals, including skincare tools and vanity essentials selected for convenience and mobile-first browsing.",
-  },
-  {
-    slug: "gadgets",
-    title: "Gadgets",
-    heading: "Useful gadgets that fit modern homes and workspaces",
-    description:
-      "Browse compact gadgets selected for flexible daily use, clean setups, and simple value without unnecessary clutter.",
-    intro:
-      "These gadget recommendations are meant for people who want practical upgrades that look good and feel easy to use.",
-    seoDescription:
-      "Shop gadget recommendations on ODeals, from desk-friendly power accessories to portable entertainment finds and modern home tech.",
-  },
-  {
-    slug: "home-kitchen",
-    title: "Home & Kitchen",
-    heading: "Smart home and kitchen tools for modern living",
-    description:
-      "Discover top-rated home and kitchen gadgets chosen for everyday convenience, smart design, and real home use.",
-    intro:
-      "Our home and kitchen picks focus on practical tools that save time, reduce effort, and make daily life easier for everyone.",
-    seoDescription:
-      "Explore home and kitchen product recommendations on ODeals, including blenders, appliances, and home gadgets selected for everyday use.",
-  },
-];
-
-export const products: Product[] = [
-
+     
     {
     slug: "ninja-professional-plus-food-processor",
     title: "Ninja Professional Plus Food Processor",
