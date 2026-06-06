@@ -35,7 +35,6 @@ export const products: Product[] = [
   {
     slug: "cuisinart-convection-toaster-oven-air-fryer", 
     title: "Cuisinart Convection Toaster Oven Air Fryer",
-    title: "Cuisinart Convection Toaster Oven Air Fryer",
     category: "Home & Kitchen",
     categorySlug: "home-kitchen",
     image: "/products/cuisinart-convection-toaster-oven-air-fryer.png",
