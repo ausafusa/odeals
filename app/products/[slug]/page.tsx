@@ -58,12 +58,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <h1 className="mt-3 text-2xl font-extrabold tracking-tight text-[color:var(--primary-text)] sm:text-4xl">
             {product.title}
           </h1>
-          <p className="mt-4 text-base leading-relaxed text-[color:var(--secondary-text)] sm:text-lg">
-            {product.description}
-          </p>
 
           {/* Dynamic Locked Pro Amazon Button */}
-          <AmazonButton url={product.amazonUrl} productName={product.title} />
+          <div className="mt-6">
+            <AmazonButton url={product.amazonUrl} productName={product.title} />
+          </div>
         </div>
       </div>
 
