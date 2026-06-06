@@ -31,8 +31,33 @@ export type Category = {
   seoDescription: string;
 };
 
-export const categories: Category[] = [
-  
+export const products: Product[] = [
+  export const categories: Category[] = [
+  {
+    slug: "beauty",
+    title: "Beauty",
+    heading: "Best Beauty Products",
+    description: "Curated beauty products.",
+    intro: "Discover top beauty products.",
+    seoDescription: "Best beauty products and recommendations.",
+  },
+  {
+    slug: "gadgets",
+    title: "Gadgets",
+    heading: "Best Gadgets",
+    description: "Curated gadget recommendations.",
+    intro: "Discover trending gadgets.",
+    seoDescription: "Best gadgets and tech recommendations.",
+  },
+  {
+    slug: "home-kitchen",
+    title: "Home & Kitchen",
+    heading: "Best Home & Kitchen Products",
+    description: "Curated home and kitchen products.",
+    intro: "Discover useful home and kitchen products.",
+    seoDescription: "Best home and kitchen product recommendations.",
+  },
+];
   {
     slug: "cuisinart-convection-toaster-oven-air-fryer",
     title: "Cuisinart Convection Toaster Oven Air Fryer",
