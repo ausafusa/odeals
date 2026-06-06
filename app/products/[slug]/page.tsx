@@ -123,7 +123,7 @@ export default async function ProductPage({ params }: any) {
           Related products
         </h2>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
           {relatedProducts.map((p) => (
             <ProductCard key={p.slug} product={p} />
           ))}
