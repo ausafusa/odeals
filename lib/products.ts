@@ -32,55 +32,6 @@ export type Category = {
 };
 
 export const categories: Category[] = [
-  {
-    slug: "ninja-creami-ice-cream-maker",
-    title: "Ninja Creami Ice Cream Maker",
-    category: "Home & Kitchen",
-    categorySlug: "home-kitchen",
-    image: "/products/ninja-creami-ice-cream-maker.png",
-    shortBenefits: "Ninja Creami turns any frozen mixture into creamy ice cream — including protein shakes, making it the viral machine for healthy desserts.",
-    benefits: [
-      "CREAMi Technology: A vertical processing shaft drives the blade through frozen bases at precise RPM — creating smooth, scoopable ice cream from ingredients no regular ice cream maker can handle.",
-      "7 Processing Programs: Ice cream, lite ice cream, gelato, sorbet, smoothie bowl, milkshake, and mix-in — each programme uses different speed and pressure profiles.",
-      "Protein Ice Cream Capable: Freeze a protein shake, process it in the Creami — the result is genuinely smooth, scoopable, high-protein ice cream that tastes like the real thing.",
-    ],
-    amazonUrl: "https://amzn.to/4e5iDxD",
-    youtubeShortUrl: "YOUTUBE_URL",
-    tagline:
-      "Protein ice cream. Gelato. Sorbet. Smoothie bowls. One machine.",
-    trending: true,
-    whyWePickedIt:
-      "The Ninja Creami went viral for one reason: it makes genuinely good ice cream from ingredients that should not work — protein powder, cottage cheese, frozen fruit. The CREAMi technology is the reason it succeeds where standard ice cream makers fail.",
-    bestFor: [
-      "Fitness-focused individuals who want high-protein desserts that actually taste good",
-      "Families with dietary restrictions who want customisable ice cream without additives",
-      "Anyone who saw Ninja Creami recipes on TikTok and wants to make them at home",
-    ],
-    thingsToKnow: [
-      "Bases must be frozen solid for 24 hours before processing",
-      "Each pint container makes one serving — multiple containers needed for batch production",
-      "Re-spin function adds a second processing pass for creamier results if needed",
-    ],
-    editorialSummary:
-      "The Ninja Creami became the most talked-about kitchen appliance on social media for a straightforward reason: it makes things that are not supposed to be ice cream into something that tastes like ice cream. A protein shake frozen overnight and processed in the Creami produces a smooth, scoopable, genuinely satisfying frozen dessert with the macros of a protein supplement. Cottage cheese ice cream, avocado gelato, frozen fruit sorbet — the CREAMi technology handles bases that would destroy a standard ice cream maker. For anyone navigating dietary restrictions or fitness goals without wanting to sacrifice dessert, this machine changes what is possible.",
-    faqs: [
-      {
-        question: "Why does the base need to freeze for 24 hours?",
-        answer:
-          "The CREAMi blade processes the base from the outside in, working through fully-frozen material. Partially frozen bases do not process correctly and can damage the machine.",
-      },
-      {
-        question: "Can I make larger batches?",
-        answer:
-          "Each pint container serves one to two people. Multiple containers can be prepared in advance and stored in the freezer — you process one at a time as needed.",
-      },
-      {
-        question: "Does it work with dairy-free bases?",
-        answer:
-          "Yes — coconut milk, almond milk, and oat milk bases all work. The CREAMi processes any frozen base regardless of dairy content.",
-      },
-    ],
-  },
   
   {
     slug: "cuisinart-convection-toaster-oven-air-fryer",
