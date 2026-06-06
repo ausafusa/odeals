@@ -1,65 +1,40 @@
-export type ProductFaq = {
-  question: string;
-  answer: string;
-};
+export type ProductFaq = {question: string; answer: string; }; 
+export type Product = {slug: string; title: string; category: "Beauty" | "Gadgets" | "Home & Kitchen"; categorySlug: "beauty" | "gadgets" | "home-kitchen"; image: string; shortBenefits: string; benefits: string[]; amazonUrl: string; youtubeShortUrl?: string; tagline: string; trending: boolean; whyWePickedIt: string; bestFor: string[]; thingsToKnow: string[]; editorialSummary: string; faqs: ProductFaq[]; }; 
+export type Category = {slug: Product["categorySlug"]; title: Product["category"]; heading: string; description: string; intro: string; seoDescription: string; }; 
 
-export type Product = {
-  slug: string;
-  title: string;
-  category: "Beauty" | "Gadgets" | "Home & Kitchen";
-  categorySlug: "beauty" | "gadgets" | "home-kitchen";
-  image: string;
-  shortBenefits: string;
-  benefits: string[];
-  amazonUrl: string;
-  youtubeShortUrl?: string;
-  tagline: string;
-  trending: boolean;
-  whyWePickedIt: string;
-  bestFor: string[];
-  thingsToKnow: string[];
-  editorialSummary: string;
-  faqs: ProductFaq[];
-};
+// ==================== 1. CATEGORIES ARRAY (FIXED) ====================
+export const categories: Category[] = [
+  {
+    slug: "beauty", 
+    title: "Beauty", 
+    heading: "Best Beauty Products", 
+    description: "Curated beauty products.", 
+    intro: "Discover top beauty products.", 
+    seoDescription: "Best beauty products and recommendations.", 
+  }, 
+  {
+    slug: "gadgets", 
+    title: "Gadgets", 
+    heading: "Best Gadgets", 
+    description: "Curated gadget recommendations.", 
+    intro: "Discover trending gadgets.", 
+    seoDescription: "Best gadgets and tech recommendations.", 
+  }, 
+  {
+    slug: "home-kitchen", 
+    title: "Home & Kitchen", 
+    heading: "Best Home & Kitchen Products", 
+    description: "Curated home and kitchen products.", 
+    intro: "Discover useful home and kitchen products.", 
+    seoDescription: "Best home and kitchen product recommendations.", 
+  }, 
+]; 
 
-export type Category = {
-  slug: Product["categorySlug"];
-  title: Product["category"];
-  heading: string;
-  description: string;
-  intro: string;
-  seoDescription: string;
-};
-
+// ==================== 2. PRODUCTS ARRAY START (FIXED) ====================
 export const products: Product[] = [
-  export const categories: Category[] = [
   {
-    slug: "beauty",
-    title: "Beauty",
-    heading: "Best Beauty Products",
-    description: "Curated beauty products.",
-    intro: "Discover top beauty products.",
-    seoDescription: "Best beauty products and recommendations.",
-  },
-  {
-    slug: "gadgets",
-    title: "Gadgets",
-    heading: "Best Gadgets",
-    description: "Curated gadget recommendations.",
-    intro: "Discover trending gadgets.",
-    seoDescription: "Best gadgets and tech recommendations.",
-  },
-  {
-    slug: "home-kitchen",
-    title: "Home & Kitchen",
-    heading: "Best Home & Kitchen Products",
-    description: "Curated home and kitchen products.",
-    intro: "Discover useful home and kitchen products.",
-    seoDescription: "Best home and kitchen product recommendations.",
-  },
-];
-  {
-    slug: "cuisinart-convection-toaster-oven-air-fryer",
+    slug: "cuisinart-convection-toaster-oven-air-fryer", 
+    title: "Cuisinart Convection Toaster Oven Air Fryer",
     title: "Cuisinart Convection Toaster Oven Air Fryer",
     category: "Home & Kitchen",
     categorySlug: "home-kitchen",
