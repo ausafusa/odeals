@@ -2137,50 +2137,6 @@ export const siteTrustBadges = [
 ];
 
 export const trendingProducts = products.filter((product) => product.trending);
-  {
-    slug: "airnest-mini-projector",
-    title: "AirNest Mini Projector",
-    category: "Gadgets",
-    categorySlug: "gadgets",
-    image: "/products/airnest-mini-projector.svg",
-    shortBenefits: "Portable viewing, relaxed setup, and a space-saving entertainment option.",
-    benefits: [
-      "Small format makes it easier to move between rooms or pack for trips.",
-      "Helps create a flexible viewing setup without a large permanent screen.",
-      "A useful category for cozy bedrooms, casual streaming, and apartment living.",
-    ],
-    amazonUrl: "https://www.amazon.com/",
-    tagline:
-      "A compact projector category for shoppers who want a casual, flexible viewing experience at home or away.",
-    trending: true,
-    whyWePickedIt:
-      "We featured this because mini projectors appeal to international, mobile-first audiences looking for compact entertainment options that fit smaller homes and flexible lifestyles.",
-    bestFor: [
-      "Movie nights in smaller spaces",
-      "Portable entertainment setups",
-      "Shoppers who want a compact alternative to a traditional TV-first setup",
-    ],
-    thingsToKnow: [
-      "Image quality and brightness can vary significantly between listings.",
-      "Room lighting and projection surface have a big impact on the viewing experience.",
-      "Check the latest connectivity and streaming details before buying.",
-    ],
-    editorialSummary:
-      "AirNest Mini Projector is best for shoppers who value flexibility and compact living. It is an appealing category for relaxed entertainment rather than a replacement for every large-screen use case.",
-    faqs: [
-      {
-        question: "Is a mini projector a good choice for small spaces?",
-        answer:
-          "Yes. This category is often attractive for apartments, bedrooms, and rooms where a permanent screen is not ideal.",
-      },
-      {
-        question: "What should shoppers verify before buying?",
-        answer:
-          "It is smart to review connectivity, brightness, and size details on the latest Amazon listing before making a decision.",
-      },
-    ],
-  },
-];
 
 export function getProductBySlug(slug: string) {
   return products.find((product) => product.slug === slug);
