@@ -70,6 +70,56 @@ export const categories: Category[] = [
 export const products: Product[] = [
 
     {
+    slug: "ninja-professional-plus-food-processor",
+    title: "Ninja Professional Plus Food Processor",
+    category: "Home & Kitchen",
+    categorySlug: "home-kitchen",
+    image: "/products/ninja-professional-plus-food-processor.png",
+    shortBenefits: "1000W motor, 9-cup bowl, and 4 Auto-iQ functions for effortless meal prep in seconds.",
+    benefits: [
+      "1000-Peak-Watt Motor: Powers through onions, cheese, nuts, and dough without breaking a sweat — consistent results every time.",
+      "4 Auto-iQ Functions: Dedicated programs for chopping, slicing, purees, and dough take the guesswork out of every task.",
+      "9-Cup Processor Bowl: Generous capacity handles family-sized batches with a food chute and pusher for continuous feeding.",
+    ],
+    amazonUrl: "https://amzn.to/3QoXQgD",
+    youtubeShortUrl: "YOUTUBE_URL",
+    tagline:
+      "Chop, slice, shred, and dough — all at the touch of a button.",
+    trending: false,
+    whyWePickedIt:
+      "The BN601 is the sweet spot between power and price. At under $100, it delivers Auto-iQ intelligence that most food processors at twice the price do not have.",
+    bestFor: [
+      "Meal preppers who spend hours chopping every week",
+      "Home bakers who make dough regularly",
+      "Anyone who wants faster, more consistent food prep",
+    ],
+    thingsToKnow: [
+      "Comes with 3 blades: chopping blade, dough blade, and slicing/shredding disc",
+      "Bowl, lid, and blades are all dishwasher safe",
+      "Cord storage built into the base for neat countertop storage",
+    ],
+    editorialSummary:
+      "The Ninja Professional Plus Food Processor turns the most tedious part of cooking — the prep — into a 10-second job. Onions chopped, cheese shredded, dough mixed, vegetables sliced: all with one machine and zero effort. The 1000-watt motor combined with Auto-iQ presets means you press one button and walk away with perfect results. For anyone who meal preps or bakes regularly, this is the single best investment under $100.",
+    faqs: [
+      {
+        question: "Can it make bread dough?",
+        answer:
+          "Yes — the included dough blade and dedicated dough Auto-iQ program handle bread, pizza, and cookie dough with ease.",
+      },
+      {
+        question: "How loud is it?",
+        answer:
+          "Like most food processors at this power level, it is noticeable during operation — but tasks complete in seconds, so total noise time is minimal.",
+      },
+      {
+        question: "Can I process hot ingredients?",
+        answer:
+          "No — only use the processor with room temperature or cooler ingredients to avoid pressure buildup.",
+      },
+    ],
+  },
+
+    {
     slug: "ninja-foodi-smart-xl-6-in-1-indoor-grill",
     title: "Ninja Foodi Smart XL 6-in-1 Indoor Grill",
     category: "Home & Kitchen",
