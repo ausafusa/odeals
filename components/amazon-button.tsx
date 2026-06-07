@@ -28,24 +28,36 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
         </a>
       </div>
 
+      {/* Psychological Divider */}
       <div className="flex items-center gap-3">
           <hr className="flex-grow border-gray-200" />
-          <span className="text-xs font-semibold text-gray-500">OR EXPLORE</span>
+          <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Wait, There's More</span>
           <hr className="flex-grow border-gray-200" />
       </div>
 
-      {/* Section 2: Bonus Deals Link */}
-      <div className="bonus-deals-card space-y-4">
-        <h4 className="text-xs font-bold text-emerald-700 uppercase tracking-widest text-center">Daily Bonus Savings</h4>
+      {/* Section 2: Bonus Deals Link (ULTRA PRO ANIMATED) */}
+      <div className="bonus-deals-card space-y-4 relative">
+        {/* Background Glowing Pulse Animation */}
+        <div className="absolute inset-0 bg-emerald-500 rounded-full blur-md opacity-40 animate-pulse"></div>
+        
         <a 
           href={dealsLink} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="group w-full flex items-center justify-center gap-3 p-4 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 text-white font-bold text-md shadow-md hover:shadow-xl hover:scale-[1.01] transition-all duration-300"
+          className="relative group w-full flex items-center justify-center gap-3 p-4 rounded-full bg-gradient-to-r from-emerald-600 to-green-500 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border border-emerald-400/50"
         >
-          <span className="text-lg">🔥</span> 
-          <span>UNLOCK DAILY AMAZING DEALS</span>
-          <svg className="w-5 h-5 text-white/80 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🔥</span> 
+          
+          <div className="flex flex-col items-center leading-tight z-10">
+            <span className="text-[15px] sm:text-[17px] font-extrabold tracking-widest uppercase text-white drop-shadow-md">
+              UNLOCK 1,000+ DEALS
+            </span>
+            <span className="text-xs sm:text-sm font-medium text-emerald-50 mt-1">
+              Claim Up To <span className="font-extrabold text-[#1a1a1a] bg-[#FFD814] px-1.5 py-0.5 rounded shadow-sm">70% OFF</span> Today
+            </span>
+          </div>
+          
+          <svg className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform duration-300 z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
         </a>
       </div>
     </div>
