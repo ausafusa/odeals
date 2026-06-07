@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/json-ld";
 import { Navbar } from "@/components/navbar";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { absoluteUrl, siteConfig } from "@/lib/site";
+import { FloatingShare } from "@/components/FloatingShare";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -72,6 +73,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <ThemeToggle />
+        <FloatingShare />
       </body>
     </html>
   );
