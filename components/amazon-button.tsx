@@ -1,9 +1,13 @@
+interface AmazonButtonProps {
+  url: string;
+  productName: string;
+}
+
 export function AmazonButton({ url, productName }: AmazonButtonProps) {
   const dealsLink = "https://amzn.to/4xf26js"; 
 
   return (
     <div className="flex flex-col gap-3 mt-6">
-      {/* View Product Button */}
       <a 
         href={url} 
         target="_blank" 
@@ -12,7 +16,6 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
         View {productName} on Amazon
       </a>
 
-      {/* Bonus Deals Button */}
       <a 
         href={dealsLink} 
         target="_blank" 
