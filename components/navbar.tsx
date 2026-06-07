@@ -12,43 +12,47 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-[color:var(--subtle-border)] bg-[color:var(--header-bg)] backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md">
       {/* Top Professional Banner */}
-      <div className="w-full bg-gradient-to-r from-[#131921] to-[#1a232e] text-center py-2 px-4 shadow-sm">
-        <p className="text-xs sm:text-sm font-semibold text-[#ffd700] tracking-wide">
-          🚀 Worldwide Shipping Available | Best Amazon Deals Delivered to Your Doorstep
+      <div className="w-full bg-gradient-to-r from-[#131921] to-[#232f3e] text-center py-2 px-4">
+        <p className="text-xs sm:text-sm font-bold text-[#FFD814] tracking-wide uppercase">
+          🚀 Worldwide Shipping Available | Best Amazon Deals
         </p>
       </div>
 
-      <div className="shell py-3 sm:py-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
         {/* Main Navbar Row */}
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center justify-between gap-4">
           <Logo />
 
-          <nav className="hidden items-center gap-5 lg:flex">
+          {/* Desktop Nav with Hover Effect */}
+          <nav className="hidden items-center gap-6 lg:flex">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-[color:var(--secondary-text)] transition-colors hover:text-[color:var(--primary-text)]"
+                className="text-[15px] font-semibold text-gray-700 transition-all duration-300 hover:text-blue-600 hover:underline decoration-blue-600 underline-offset-8"
               >
                 {item.label}
               </Link>
             ))}
           </nav>
 
-          <Link href="/categories" className="cta-button cta-primary px-4 text-sm whitespace-nowrap">
-            Explore picks
+          <Link 
+            href="/categories" 
+            className="hidden lg:block bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-bold shadow-lg hover:bg-blue-700 transition-transform hover:scale-105"
+          >
+            Explore Picks
           </Link>
         </div>
 
         {/* Mobile/Tablet Category Scroll */}
-        <nav className="mt-4 flex gap-2 overflow-x-auto pb-1 lg:hidden">
+        <nav className="mt-4 flex gap-3 overflow-x-auto pb-2 lg:hidden scrollbar-hide">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="whitespace-nowrap rounded-full border border-[color:var(--subtle-border)] bg-[color:var(--surface)] px-4 py-2 text-sm font-medium text-[color:var(--secondary-text)]"
+              className="whitespace-nowrap rounded-full border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-blue-600 hover:text-white transition-colors"
             >
               {item.label}
             </Link>
