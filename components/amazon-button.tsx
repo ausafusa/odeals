@@ -9,7 +9,7 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
   return (
     <div className="flex flex-col gap-5 mt-8 p-6 bg-gray-50/50 rounded-2xl border border-gray-100 shadow-inner">
       
-      {/* Custom CSS for Continuous Arrow Animation */}
+      {/* Custom CSS for Continuous Animations */}
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes point-right {
           0%, 100% { transform: translateX(0); }
@@ -46,7 +46,7 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
           <hr className="flex-grow border-gray-200" />
       </div>
 
-      {/* Section 2: Bonus Deals Link (REALISTIC & PRO ANIMATED) */}
+      {/* Section 2: Bonus Deals Link (ULTRA PRO ANIMATED) */}
       <div className="bonus-deals-card space-y-4 relative">
         {/* Background Glowing Pulse Animation */}
         <div className="absolute inset-0 bg-emerald-500 rounded-full blur-md opacity-40 animate-pulse"></div>
@@ -57,7 +57,8 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
           rel="noopener noreferrer"
           className="relative group w-full flex items-center justify-center gap-3 p-4 rounded-full bg-gradient-to-r from-emerald-600 to-green-500 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border border-emerald-400/50"
         >
-          <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🎁</span> 
+          {/* Continuous Animated Fire Icon (animate-pulse) */}
+          <span className="text-2xl animate-pulse group-hover:scale-110 transition-transform duration-300">🔥</span> 
           
           <div className="flex flex-col items-center leading-tight z-10">
             <span className="text-[15px] sm:text-[17px] font-extrabold tracking-widest uppercase text-white drop-shadow-md">
@@ -68,7 +69,7 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
             </span>
           </div>
           
-          {/* Continuously Animated Arrow SVG */}
+          {/* Continuously Animated Arrow SVG (animate-point) */}
           <svg className="w-8 h-8 text-white animate-point z-10 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
         </a>
       </div>
