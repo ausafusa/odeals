@@ -9,6 +9,17 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
   return (
     <div className="flex flex-col gap-5 mt-8 p-6 bg-gray-50/50 rounded-2xl border border-gray-100 shadow-inner">
       
+      {/* Custom CSS for Continuous Arrow Animation */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes point-right {
+          0%, 100% { transform: translateX(0); }
+          50% { transform: translateX(10px); }
+        }
+        .animate-point {
+          animation: point-right 1.2s ease-in-out infinite;
+        }
+      `}} />
+
       {/* Section 1: Main Product Button */}
       <div className="main-deal-card space-y-4">
         <h4 className="text-xs font-bold text-blue-600 uppercase tracking-widest text-center">Featured Product</h4>
@@ -37,6 +48,7 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
 
       {/* Section 2: Bonus Deals Link (REALISTIC & PRO ANIMATED) */}
       <div className="bonus-deals-card space-y-4 relative">
+        {/* Background Glowing Pulse Animation */}
         <div className="absolute inset-0 bg-emerald-500 rounded-full blur-md opacity-40 animate-pulse"></div>
         
         <a 
@@ -56,8 +68,8 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
             </span>
           </div>
           
-          {/* Arrow SVG - Now Bigger (w-8 h-8) and Bolder (strokeWidth={3.5}) */}
-          <svg className="w-8 h-8 text-white group-hover:translate-x-2 transition-transform duration-300 z-10 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
+          {/* Continuously Animated Arrow SVG */}
+          <svg className="w-8 h-8 text-white animate-point z-10 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
         </a>
       </div>
     </div>
