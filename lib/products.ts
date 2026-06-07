@@ -1877,8 +1877,6 @@ export const products: Product[] = [
     ],
   },
   
- 
-
 export const siteTrustBadges = [
   "Mobile-friendly picks",
   "Curated product finds",
