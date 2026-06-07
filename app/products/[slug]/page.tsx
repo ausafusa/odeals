@@ -61,7 +61,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
           {/* Dynamic Locked Pro Amazon Button */}
           <div className="mt-6">
-            <AmazonButton url={product.amazonLink} productName={product.title} />
+            <AmazonButton url={product.amazonUrl} productName={product.title} />
           </div>
         </div>
       </div>
