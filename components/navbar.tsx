@@ -15,6 +15,9 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-[color:var(--subtle-border)] bg-[color:var(--header-bg)] backdrop-blur-xl">
       <div className="shell py-3 sm:py-4">
         <div className="flex items-center justify-between gap-3">
+          <div className="bg-yellow-400 text-black text-center py-2 text-sm font-bold">
+        🚀 Worldwide Shipping Available | Best Amazon Deals Delivered to Your Doorstep
+      </div>
           <Logo />
 
           <nav className="hidden items-center gap-5 lg:flex">
