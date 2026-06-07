@@ -62,17 +62,8 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
           
           <div className="flex flex-col items-center leading-tight z-10">
             <span className="text-[15px] sm:text-[17px] font-extrabold tracking-widest uppercase text-white drop-shadow-md">
-              UNLOCK HIDDEN DEALS
+              UNLOCK 1,000+ DEALS
             </span>
             <span className="text-xs sm:text-sm font-medium text-emerald-50 mt-1">
-              Claim Up To <span className="font-extrabold text-[#1a1a1a] bg-[#FFD814] px-1.5 py-0.5 rounded shadow-sm">43% OFF</span> Today
+              <span className="font-extrabold text-[#1a1a1a] bg-[#FFD814] px-2 py-0.5 rounded shadow-sm">UP TO 43% OFF</span>
             </span>
-          </div>
-          
-          {/* Continuously Animated Arrow SVG (animate-point) */}
-          <svg className="w-8 h-8 text-white animate-point z-10 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
-        </a>
-      </div>
-    </div>
-  );
-}
