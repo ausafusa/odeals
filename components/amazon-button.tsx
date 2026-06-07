@@ -35,9 +35,8 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
           <hr className="flex-grow border-gray-200" />
       </div>
 
-      {/* Section 2: Bonus Deals Link (ULTRA PRO ANIMATED) */}
+      {/* Section 2: Bonus Deals Link (REALISTIC & PRO ANIMATED) */}
       <div className="bonus-deals-card space-y-4 relative">
-        {/* Background Glowing Pulse Animation */}
         <div className="absolute inset-0 bg-emerald-500 rounded-full blur-md opacity-40 animate-pulse"></div>
         
         <a 
@@ -46,18 +45,19 @@ export function AmazonButton({ url, productName }: AmazonButtonProps) {
           rel="noopener noreferrer"
           className="relative group w-full flex items-center justify-center gap-3 p-4 rounded-full bg-gradient-to-r from-emerald-600 to-green-500 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border border-emerald-400/50"
         >
-          <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🔥</span> 
+          <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🎁</span> 
           
           <div className="flex flex-col items-center leading-tight z-10">
             <span className="text-[15px] sm:text-[17px] font-extrabold tracking-widest uppercase text-white drop-shadow-md">
-              UNLOCK 1,000+ DEALS
+              UNLOCK HIDDEN DEALS
             </span>
             <span className="text-xs sm:text-sm font-medium text-emerald-50 mt-1">
-              Claim Up To <span className="font-extrabold text-[#1a1a1a] bg-[#FFD814] px-1.5 py-0.5 rounded shadow-sm">70% OFF</span> Today
+              Claim Up To <span className="font-extrabold text-[#1a1a1a] bg-[#FFD814] px-1.5 py-0.5 rounded shadow-sm">43% OFF</span> Today
             </span>
           </div>
           
-          <svg className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform duration-300 z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
+          {/* Arrow SVG - Now Bigger (w-8 h-8) and Bolder (strokeWidth={3.5}) */}
+          <svg className="w-8 h-8 text-white group-hover:translate-x-2 transition-transform duration-300 z-10 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3.5} d="M13 5l7 7m0 0l-7 7m7-7H5" /></svg>
         </a>
       </div>
     </div>
