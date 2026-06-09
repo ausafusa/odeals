@@ -5,7 +5,6 @@ export function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Check agar user ne pehle accept kiya hai
     const consent = localStorage.getItem("cookieConsent");
     if (!consent) {
       setIsVisible(true);
@@ -22,8 +21,8 @@ export function CookieBanner() {
   return (
     <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:w-96 bg-white p-4 rounded-xl shadow-lg border border-gray-200 z-50 animate-in fade-in slide-in-from-bottom-5">
       <p className="text-sm text-gray-600 mb-4">
-        Hum aapke experience ko behtar banane aur analytics ke liye cookies ka istemal karte hain. 
-        Hamari <a href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</a> parhein.
+        We use cookies to enhance your browsing experience and analyze site traffic. 
+        Read our <a href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</a>.
       </p>
       <button 
         onClick={acceptCookies}
