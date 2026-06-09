@@ -6,6 +6,7 @@ import { Navbar } from "@/components/navbar";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { absoluteUrl, siteConfig } from "@/lib/site";
 import { FloatingShare } from "@/components/FloatingShare";
+import { CookieBanner } from "@/components/CookieBanner"; // Import kiya
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -74,6 +75,7 @@ export default function RootLayout({
         <Footer />
         <ThemeToggle />
         <FloatingShare />
+        <CookieBanner /> {/* Yahan add ho gaya */}
       </body>
     </html>
   );
