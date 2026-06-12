@@ -1796,7 +1796,7 @@ export const products: Product[] = [
       "6-in-1 Versatility: Grill, air crisp, roast, bake, broil, and dehydrate — one appliance replaces six kitchen tools.",
     ],
     amazonUrl: "https://amzn.to/4eqsE9T",
-    youtubeShortUrl: "YOUTUBE_URL",
+    youtubeShortUrl: "https://youtube.com/shorts/sK1xH8xNOkw?feature=share",
     tagline:
       "Sear, sizzle, and crisp — all indoors, all in one.",
     trending: true,
@@ -1844,7 +1844,7 @@ export const products: Product[] = [
       "Auto-iQ Presets: Three intelligent one-touch programs use unique pulsing patterns to take the guesswork out of blending.",
       "On-the-Go Design: The 26oz cup features a built-in handle and a 100% leakproof lid with chug spout and detachable straw.",
     ],
-    amazonUrl: "https://amzn.to/4ogNb4a",
+    amazonUrl: "https://youtube.com/shorts/6NoIWA6wWPY?feature=share",
     youtubeShortUrl: "https://www.youtube.com/shorts/qQl1NMp5LPg?feature=share",
     tagline:
       "Blend it. Seal it. Take it anywhere.",
