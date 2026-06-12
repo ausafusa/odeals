@@ -1844,7 +1844,7 @@ export const products: Product[] = [
       "Auto-iQ Presets: Three intelligent one-touch programs use unique pulsing patterns to take the guesswork out of blending.",
       "On-the-Go Design: The 26oz cup features a built-in handle and a 100% leakproof lid with chug spout and detachable straw.",
     ],
-    amazonUrl: "https://youtube.com/shorts/6NoIWA6wWPY?feature=share",
+    amazonUrl: "https://amzn.to/4fJiu5y",
     youtubeShortUrl: "https://www.youtube.com/shorts/qQl1NMp5LPg?feature=share",
     tagline:
       "Blend it. Seal it. Take it anywhere.",
